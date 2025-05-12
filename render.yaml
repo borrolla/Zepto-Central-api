@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: zepto-central-api
+    env: java
+    buildCommand: "mvn package"
+    startCommand: "java -jar target/central-api-0.0.1-SNAPSHOT.jar"
+    plan: free
